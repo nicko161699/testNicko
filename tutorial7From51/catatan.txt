@@ -1,0 +1,16 @@
+ganti dynamic web module version ke 2.5 karena versi ini paling mudah digunakan, fitur lengkap, bisa gratis
+
+tambahkan servlet lalu atur display name dan servlet name sesuai kebutuhan di web.xml
+dispatcherServlet tersebut akan digunakan untuk menyambungkan java dengan jsp sesuai dengan yang diinginkan
+
+buat bean untuk mengatur servlet dengan ketentuan nama --> xxx-servlet.xml
+tentukan prefix dan suffixnya
+
+buat controller untuk mengatur apa yang akan dikirim/diambil ke/oleh jsp 
+--> bisa pake : Model, ModelandView, atau HttpSession
+
+gunaan 'war' pada pom.xml --> ga tau knp kalo 'jar' maven dependency pada deployment assembly project malah hilang
+
+tulis autowire bisa di method set atau deklarasi objectnya --> kalo di method get gak bisa
+
+configurasi jndi pada server dari google search --> "tomcat 7 mysql datasource jndi" yg <resource>
